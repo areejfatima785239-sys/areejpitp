@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Academy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header / Hero Section -->
+  <header class="hero">
+    <nav class="navbar">
+      <h1 class="logo">Online Academy</h1>
+      <ul class="nav-links">
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#instructors">Instructors</a></li>
+        <li><a href="#enroll">Enroll</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <h2>Learn Skills for the Future</h2>
+      <p>High quality online courses taught by industry experts.</p>
+      <a href="#courses" class="btn">Browse Courses</a>
+    </div>
+  </header>
+
+  <!-- Courses Section -->
+  <section id="courses" class="section">
+    <h2 class="section-title">Our Courses</h2>
+
+    <div class="course-container">
+      <div class="course-card">
+        <img src="https://th.bing.com/th/id/R.c62fd5639e15e77e61ced1f3d75553c9?rik=BVBh1wADhqYWaA&pid=ImgRaw&r=0" alt="Web Development">
+        <h3>Web Development</h3>
+        <p>Learn HTML, CSS, JavaScript and build real websites.</p>
+      </div>
+
+      <div class="course-card">
+        <img src="https://www.webabridgesolutions.com/images/graphicsdesign.png" alt="Graphic Design">
+        <h3>Graphic Design</h3>
+        <p>Master Photoshop, Illustrator and creative design skills.</p>
+      </div>
+
+      <div class="course-card">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.-JY9jl406ZFS5qnqIGgIKQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Digital Marketing">
+        <h3>Digital Marketing</h3>
+        <p>SEO, social media marketing and online branding.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instructors Section -->
+  <section id="instructors" class="section light-bg">
+    <h2 class="section-title">Meet Our Instructors</h2>
+
+    <div class="instructor-container">
+      <div class="instructor-card">
+        <img src="https://via.placeholder.com/150" alt="Instructor 1">
+        <h3>Umar Farooq Dar</h3>
+        <p>Senior Web Developer</p>
+      </div>
+
+      <div class="instructor-card">
+        <img src="https://via.placeholder.com/150" alt="Instructor 2">
+        <h3>Komal Khan</h3>
+        <p>Graphic Designer</p>
+      </div>
+
+      <div class="instructor-card">
+        <img src="https://via.placeholder.com/150" alt="Instructor 3">
+        <h3>Ali Ahmed</h3>
+        <p>Marketing Specialist</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enrollment Form -->
+  <section id="enroll" class="section">
+    <h2 class="section-title">Enroll Now</h2>
+
+    <form class="enroll-form" id="enrollForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+
+      <select required>
+        <option value="">Select Course</option>
+        <option>Web Development</option>
+        <option>Graphic Design</option>
+        <option>Digital Marketing</option>
+      </select>
+
+      <button type="submit" class="btn">Submit</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Online Academy. All rights reserved.</p>
+    <p>Designed by Aqsa Mughal</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

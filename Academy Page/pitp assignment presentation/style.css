@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HERO SECTION */
+.hero {
+    background-image: url("https://picsum.photos/1200/600");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    background-color: rgba(0,0,0,0.6);
+    padding: 40px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    margin: 15px 0;
+}
+
+.btn {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* DESTINATIONS */
+.destinations {
+    padding: 50px;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+/* TIPS */
+.tips {
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+}
+
+.tips ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.tips li {
+    margin: 10px 0;
+}
+
+/* CONTACT FORM */
+.contact {
+    padding: 40px;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact button {
+    background-color: #2196f3;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #1976d2;
+}
