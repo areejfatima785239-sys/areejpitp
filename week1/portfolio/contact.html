@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Areej Fatima</title>
+</head>
+<body>
+
+    <header>
+        <h1>Areej Fatima's Portfolio</h1>
+        <hr>
+        <nav>
+            <a href="./index.html">About Me</a> |
+            <a href="./projects.html">Projects</a> |
+            <a href="./contact.html">Contact</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <h2>Get In Touch</h2>
+        <p>Use the form below to send me a message.</p>
+
+        <form action="./thank-you.html" method="get">
+            
+            <fieldset>
+                <legend>Your Details</legend>
+                
+                <p>
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="full_name" required size="40">
+                </p>
+                
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email_address" required size="40">
+                </p>
+
+                <p>
+                    <label for="phone">Phone Number (Optional):</label><br>
+                    <input type="tel" id="phone" name="phone_number" size="40">
+                </p>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Message Information</legend>
+
+                <p>
+                    <label for="subject">Subject:</label><br>
+                    <input type="text" id="subject" name="message_subject" size="42" required>
+                </p>
+
+                <p>
+                    <label for="message">Message Details (Min. 20 characters):</label><br>
+                    <textarea id="message" name="message_details" rows="7" cols="40" minlength="20" required></textarea>
+                </p>
+            </fieldset>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Email: <a href="mailto:areejfatima4366@gmail.com">areejfatima4366@gmail.com</a></p>
+        <p>Copyright &copy; 2025 Areej Fatima. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

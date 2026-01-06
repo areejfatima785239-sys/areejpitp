@@ -54,3 +54,18 @@
   border: 3px solid green;
   background-color: lightgreen;
 }
+
+
+.fixed-box {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  width: 100%; /* spans the full width of the viewport */
+  text-align: center;
+
+  position: fixed;
+  /* Locks it to the bottom of the browser window */
+  bottom: 0;
+  right: 0;
+  z-index: 1000; /* ensures it is on top of other content */
+}

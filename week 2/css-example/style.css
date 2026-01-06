@@ -1,0 +1,16 @@
+.container {
+    height: 100px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* .box {
+    height: 200px;
+    width: 400px;
+    background-color: aquamarine;
+    border: 5px dashed red;
+    color: red;
+    font-size: 22px;
+} */

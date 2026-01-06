@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  height: 80vh;
+  background: url('https://www.bing.com/images/search?view=detailV2&ccid=60GFBG%2BX&id=3679BC0E0480443A7F87C29F66471D159426A4AE&thid=OIP.60GFBG-XvCj65ngGdbLqJwHaE8&mediaurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F033%2F255%2F791%2Fnon_2x%2Fthai-food-som-tum-spicy-green-papaya-salad-top-view-ai-generated-photo.jpg&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.eb4185046f97bc28fae6780675b2ea27%3Frik%3DrqQmlBUdR2afwg%26pid%3DImgRaw%26r%3D0&exph=980&expw=1470&q=images%2ffood.jpg&form=IRPRST&ck=01781D168071F7E6A2BEC48E7CA11B0C&selectedindex=19&itb=0&ajaxhist=0&ajaxserp=0&vt=2&sim=15,16&ajaxhist=0&ajaxserp=0') center/cover no-repeat;
+  color: green;
+}
+
+.card img {
+  height: 300px;
+  object-fit: cover;
+}

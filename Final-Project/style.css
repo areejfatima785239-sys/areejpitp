@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #f4f7fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+nav {
+  background: #0b3c5d;
+  padding: 15px 30px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: #f9c74f;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(rgba(11,60,93,0.8), rgba(11,60,93,0.8)),
+              url("../images/hero.jpg") center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 10%;
+}
+
+section h2 {
+  color: #0b3c5d;
+  margin-bottom: 20px;
+}
+
+/* CARDS */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+table th {
+  background: #0b3c5d;
+  color: white;
+}
+
+/* FORM */
+form input, form textarea, form button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+}
+
+form button {
+  background: #0b3c5d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background: #092f4a;
+}
+
+/* FOOTER */
+footer {
+  background: #0b3c5d;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
