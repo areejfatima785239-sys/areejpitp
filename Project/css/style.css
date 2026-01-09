@@ -1,0 +1,185 @@
+/* Custom Styles for MUET University Portal */
+
+:root {
+    --primary-color: #0056b3;
+    --secondary-color: #f8f9fa;
+    --accent-color: #ffc107;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Navbar Customization */
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 86, 179, 0.8), rgba(0, 86, 179, 0.9)), 
+                url('https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 10px 10px 0 0 !important;
+    padding: 15px;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #004494;
+    border-color: #004494;
+}
+
+.btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* style.css - Additional styles for departments page */
+
+/* Search input focus effect */
+.input-group.focus-ring {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    border-radius: 0.375rem;
+    transition: box-shadow 0.15s ease-in-out;
+}
+
+/* Department card styling */
+.department-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #dee2e6;
+}
+
+.department-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Badge styling for courses */
+.badge.bg-secondary {
+    background-color: #6c757d !important;
+    font-weight: 500;
+    padding: 0.4em 0.8em;
+}
+
+/* Search input placeholder styling */
+#searchDept::placeholder {
+    color: #6c757d;
+    opacity: 0.7;
+}
+
+/* Button hover effects */
+.view-details:hover, .contact-dept:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+/* Card header styling */
+.card-header.bg-primary {
+    background: linear-gradient(135deg, #0d6efd, #0a58ca) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .department-card {
+        margin-bottom: 1.5rem;
+    }
+    
+    .card-footer .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    
+    .card-footer .float-end {
+        float: none !important;
+    }
+}
+/* Tables */
+.table {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.table thead {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Form Styling */
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(0, 86, 179, 0.25);
+}
+
+/* Footer */
+footer {
+    background-color: #222 !important;
+}
+
+footer a:hover {
+    color: var(--accent-color) !important;
+}
+
+/* Department Cards */
+.dept-card {
+    height: 100%;
+    border-left: 4px solid var(--primary-color);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 0;
+    }
+    
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}
